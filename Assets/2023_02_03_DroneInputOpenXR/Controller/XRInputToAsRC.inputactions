@@ -1,0 +1,146 @@
+{
+    "name": "XRInputToAsRC",
+    "maps": [
+        {
+            "name": "LeftControllerXR",
+            "id": "2daacb8d-b27f-4b4f-ad8b-b28f77099894",
+            "actions": [
+                {
+                    "name": "LeftRightRotation",
+                    "type": "Value",
+                    "id": "daf58cc1-5202-45f1-912c-afd1dbeaf976",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DownUp",
+                    "type": "Value",
+                    "id": "4b44789e-cc87-426f-9def-d010eb183c23",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7d34e753-a5de-4d6a-9105-e3a3be82a3c2",
+                    "path": "<WMRSpatialController>{LeftHand}/joystick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRightRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c72b993-1cda-4018-8371-045c008df70e",
+                    "path": "<WMRSpatialController>{LeftHand}/touchpad/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRightRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c40a9a0-d1fa-4aa4-8e0b-54c1001b0824",
+                    "path": "<WMRSpatialController>{LeftHand}/touchpad/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9e0e3b6-2451-4372-b826-271589362ba1",
+                    "path": "<WMRSpatialController>{LeftHand}/joystick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightControllerXR",
+            "id": "38420e7a-e693-40df-8ed9-07bffdde1fd2",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "c45c0b91-a8c3-4e83-afc1-0baae4fe2544",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BackFront",
+                    "type": "Value",
+                    "id": "aeed2837-7ec7-46cd-864b-f46023448388",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "97d52f61-3bd5-4e4a-875f-989a1492755c",
+                    "path": "<WMRSpatialController>{RightHand}/touchpad/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackFront",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81dad4a5-7388-4b7f-a924-1f0a6e67aa3c",
+                    "path": "<WMRSpatialController>{RightHand}/joystick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackFront",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90590ced-916c-49a1-acce-35c8a46a8f60",
+                    "path": "<WMRSpatialController>{RightHand}/touchpad/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe4da159-fd11-4793-a809-a430ded2603e",
+                    "path": "<WMRSpatialController>{RightHand}/joystick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
